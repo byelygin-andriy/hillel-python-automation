@@ -6,7 +6,7 @@ a = float(input("Input value of a: "))
 b = float(input("Input value of b: "))
 c = float(input("Input value of c: "))
 
-discriminant = b**2 - 4*a*c
+discriminant = b ** 2 - 4 * a * c
 
 if discriminant < 0:
     print('There is no square root')

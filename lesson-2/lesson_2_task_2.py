@@ -1,6 +1,7 @@
 # Пользователь вводит трехзначное число. Найдите сумму его цифр. (используйте %)
 
 number = int(input("Input three-digit number: "))
+
 if len(str(number)) == 3 and (int(number) > 0):
     digit_three = number % 10
     digit_two = number % 100 // 10

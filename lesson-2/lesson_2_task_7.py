@@ -6,7 +6,7 @@ y = 2 * |x| – 1, если x < 0
 
 x = int(input("Enter x value to count y=f(x): "))
 if x > 0:
-    y = 2*x - 10
+    y = 2 * x - 10
     print(f"Y value is {y}")
 elif x < 0:
     y = 2 * abs(x) - 1
