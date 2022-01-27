@@ -9,6 +9,6 @@ if km_per_day <= 0 or distance_to_destination <= 0:
 else:
     time_to_destination = distance_to_destination / km_per_day
     days_to_destination = int(time_to_destination // 1)
-    hours_in_day = 24
-    hours_to_destination = int((time_to_destination % 1) * hours_in_day)
+    HOURS_IN_DAY = 24
+    hours_to_destination = int((time_to_destination % 1) * HOURS_IN_DAY)
     print(f"{days_to_destination} days and {hours_to_destination} hours needed to reach the destination")
